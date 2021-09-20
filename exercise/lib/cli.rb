@@ -1,3 +1,5 @@
+PIZZA = [] # why are we doing this?
+
 def init
   puts "Welcome to the lean, mean Pizza Machine App!"
   puts "Tell us your name: "
@@ -21,6 +23,14 @@ end
 
 def menu_selection
   # Need to add some control flow based on users menu selection
+  while selection != 'exit'
+    if selection == "1"
+      puts "user selected 1"
+      create_pizza
+    elsif selection == "2"
+
+    end 
+  end 
 end 
 
 def create_pizza

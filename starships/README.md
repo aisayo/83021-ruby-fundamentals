@@ -16,7 +16,7 @@
 ### Lecture Deliverables
 - Create a CLI(command line interface) that:
     - Welcomes and prompts user to input name.
-    - Prints a menu of options: Create a new starshop, see a list of starships or exit.
+    - Prints a menu of options: Create a new starship, see a list of starships or exit.
     - Handles users selection and allows user to continue using app, looping through the program until exit is selected.
 
 ### Lecture Take aways 
